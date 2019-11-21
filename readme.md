@@ -40,7 +40,9 @@ Vous avez 3 possiblités lorsque vous effectuez un scan :
 3. A partir d'un fichier contenant une liste d'adresses IP.
 ---
 __Option : Erreurs précises__
+
 Lors de l'utilisation du script, vous devrez choisir d'afficher des erreurs précises ou simples.
+
 Les erreurs **simples** sont des erreurs/messages du type 
 > Connexion à 192.168.2.1 impossible
 
@@ -59,6 +61,7 @@ Les adresses doivent être écrites **à la suite**, séparées par **un caract�
 > 192.168.12.2;192.168.12.3;192.168.2.2
 
 Le format (txt,csv) n'importe pas
+
 **Le fichier doit être écrit sur une unique ligne**
 
 ## Membres du projet :
