@@ -62,6 +62,8 @@ Le format (txt,csv) n'importe pas
 **Le fichier doit être écrit sur une unique ligne**
 
 ## Membres du projet :
+```
 Resta Antoine
 Gaglio Quentin
-Gaglio Quentin
+Gaglio Thomas
+```
