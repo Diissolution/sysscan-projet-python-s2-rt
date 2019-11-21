@@ -3,7 +3,8 @@
 
 Outil écrit en **python** permettant d'obtenir des informations sur une machine à distance à l'aide de son adresse IP.
 
-  
+21/11/2019
+V0.1 (pré alpha)
 
 ## Prérequis
 
