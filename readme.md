@@ -47,7 +47,7 @@ Les erreurs **simples** sont des erreurs/messages du type
 > Connexion à 192.168.2.1 impossible
 
  Les erreurs **précises** sont les erreurs **systèmes brutes** du type
- >
+> (<class 'socket.gaierror'>, gaierror(-3, 'Temporary failure in name resolution'), <traceback object at 0x7fa536568148>)
 
 ---
 **Détection automatique des adresses du réseau**
