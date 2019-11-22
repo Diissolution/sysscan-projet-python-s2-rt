@@ -6,6 +6,8 @@ import ipaddress #nécéssaire pour trouver le réseau local
 import os.path  #nééssaire pour tester l'existence d'un fichier
 
 # ------------------ Classe couleurs
+# SGR color constants
+# rene-d 2018 https://gist.github.com/rene-d/9e584a7dd2935d0f461904b9f2950007
 class Colors:
     """ ANSI color codes """
     BLACK = "\033[0;30m"
