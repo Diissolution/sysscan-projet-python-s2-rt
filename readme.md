@@ -39,6 +39,8 @@ Vous avez 3 possiblités lorsque vous effectuez un scan :
 2. En laissant le script détecter le sous-réseau / réseau local, il scannera ensuite toutes les adresses présentes dans le réseau.
 3. A partir d'un fichier contenant une liste d'adresses IP.
 ---
+**addr.txt** est un fichier de test pour la fonction de scan à partir d'un fichier
+---
 __Option : Erreurs précises__
 
 Lors de l'utilisation du script, vous devrez choisir d'afficher des erreurs précises ou simples.
