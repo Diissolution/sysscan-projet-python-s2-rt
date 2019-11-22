@@ -63,11 +63,12 @@ def ip_liste():
 # ----------------- Fonction SCAN d'@IP du réseau local
 
 def ip_local():
-    aff_err="Oui"                       #Par défaut, variable aff_err en OUI pour afficher toutes les erreurs
+    aff_err="OUI"                       #Par défaut, variable aff_err en OUI pour afficher toutes les erreurs
     port=14528                           #port utilisé pour la connexion
     print(Colors.YELLOW+"---- Scan du réseau local ----\n"+Colors.RED+"/!\\"+Colors.YELLOW+"Ecrivez le nom de l'interface utilisée pour détecter le réseau local"+Colors.END)
     for i in int_list:                  #affiche la liste des interfaces récupérées lignes 37-40
-        print(" > "+ i)
+        if i!="lo":
+            print(" > "+ i)
     ch_int=input(">> ")
     aff_err=input(Colors.YELLOW+"Voulez vous afficher les erreurs python précises?\nOui / Non : "+Colors.END) #Demande à l'utilisateur s'il souhaite les erreurs détaillées pour debug
     int_ip=int_ps[ch_int][0].address+"/"+int_ps[ch_int][0].netmask
@@ -91,14 +92,14 @@ def ip_local():
             client_socket.close()                                                               #Ferme la connexion
         except :
             print(Colors.NEGATIVE+"Connexion à "+str(i)+" impossible"+Colors.END)               #Erreur "simple"
-            if aff_err=="Oui":                                                                  
+            if aff_err.upper()=="OUI":                                                                  
                 print(sys.exc_info())                                                           #Erreur système "précise" SI l'utilisation l'a choisi
 
 
 # ------------------ Fonction SCAN d'@IP depuis un fichier  
   
 def ip_fichier():                       #Par défaut, variable aff_err en OUI pour afficher toutes les erreurs
-    aff_err="Oui"   
+    aff_err="OUI"   
     port=14528                           #port utilisé pour la connexion     
     print(Colors.YELLOW+"---- Scan a partir d'un fichier ----\nEntrez le nom du fichier (avec extension)"+Colors.END)
     nom_fich=input(">> ")
@@ -127,7 +128,7 @@ def ip_fichier():                       #Par défaut, variable aff_err en OUI po
             client_socket.close()
         except :
             print(Colors.NEGATIVE+"Connexion à "+str(i)+" impossible"+Colors.END)
-            if aff_err=="Oui":
+            if aff_err.upper()=="OUI":
                 print(sys.exc_info())
     f.close()
 
