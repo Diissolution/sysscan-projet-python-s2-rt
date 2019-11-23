@@ -7,8 +7,9 @@ Outil écrit en **python** permettant d'obtenir des informations sur une machine
 V1.1
 
 ## Patch notes
-1.1 * Ajout de la possiblité de sauvegarder des logs des résultats du scan (.txt)
-    * Changements mineurs des messages affichés
+1.1 
+* Ajout de la possiblité de sauvegarder des logs des résultats du scan (.txt)
+* Changements mineurs des messages affichés
 
 ## Prérequis
 
