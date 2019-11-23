@@ -28,6 +28,8 @@ Installation windows :
 
 - Module psutil : [https://pypi.org/project/psutil/](https://pypi.org/project/psutil/)
 
+- Module colorama (nécéssaire pour les couleurs dans le terminal windows): [https://pypi.org/project/colorama/](https://pypi.org/project/colorama/)
+
 ## Utilisation
 Lancez sur les postes à scanner le script 
 `> python3 serveur.py`
