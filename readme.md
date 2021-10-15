@@ -3,10 +3,13 @@
 
 Outil écrit en **python** permettant d'obtenir des informations sur une machine à distance à l'aide de son adresse IP.
 
-23/11/2019
-V1.1
+15/10/2021
+V1.2
 
 ## Patch notes
+1.2
+* Réduction du code
+
 1.1 
 * Ajout de la possiblité de sauvegarder des logs des résultats du scan (.txt)
 * Changements mineurs des messages affichés
